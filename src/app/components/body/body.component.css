@@ -3,6 +3,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
 .message{
     display: flex;
     align-items: center;
@@ -14,12 +16,27 @@
     -webkit-text-fill-color: transparent;
 }
 
-.image-brain{
+@media only screen and (max-width: 600px) {
+    .message{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: inherit;
+        font-size: 24px;
+        background: -webkit-linear-gradient(rgb(130, 177, 96), rgb(6, 45, 203));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+img{
     height: 500px;
     width: 450px;
 }
 
-.image-browser{
-    height: 500px;
-    width: 100%;
+@media only screen and (max-width: 600px) {
+    img{
+        height: 250px;
+        width: 100%;
+    }
 }
