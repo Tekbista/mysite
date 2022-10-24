@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36,107,190);
+    color: #fff;
+    padding: 20px;
+}
+
+i.social{
+    font-size: 36px;
+    margin-right: 20px;
+}
+

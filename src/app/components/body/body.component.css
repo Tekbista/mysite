@@ -1,0 +1,25 @@
+.container{
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(130, 177, 96), rgb(6, 45, 203));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-brain{
+    height: 500px;
+    width: 450px;
+}
+
+.image-browser{
+    height: 500px;
+    width: 100%;
+}
