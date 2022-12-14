@@ -11,6 +11,11 @@ i.social{
     margin-right: 20px;
 }
 
-.col-6{
+.col-sm-4{
     text-align: center;
 }
+
+.bi-youtube{
+    color: rgb(255, 0, 0);
+}
+

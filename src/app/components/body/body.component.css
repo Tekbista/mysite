@@ -3,8 +3,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-
 .message{
     display: flex;
     align-items: center;
@@ -16,7 +14,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .message{
         display: flex;
         align-items: center;
@@ -32,6 +30,13 @@
 img{
     height: 500px;
     width: 450px;
+}
+
+@media only screen and (max-width: 900px) {
+    img{
+        height: 350px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
