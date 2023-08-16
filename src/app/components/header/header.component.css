@@ -5,7 +5,7 @@
     height: 664px;
     margin: 0;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: "Rubik",sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
@@ -21,71 +21,85 @@
   
 }
 
+
+
 .typing{
     display: inline-block;
 }
 
-/* .typing-text{
-    font-family: 'Brush Script MT', cursive;
-    font-size: 50px;
-    padding: 0px;
-    display: inline-block;
-    overflow: hidden;
-    box-sizing: border-box;
-    background: -webkit-linear-gradient(#fff, rgb(67, 244, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-right: 2px solid #fff;
-    animation: typing 5s steps(32, end), blink 0.1s step-end infinite;
-    animation-iteration-count: infinite;
-  } */
+.typing-text{
+  font-family: cursive;
+  display: inline-block;
+  overflow: hidden; 
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-size: 38px;
+  padding: 10px, 10px, 10px, 10px;
+  border-right: 2px solid #fff;
+  animation: typing 5s steps(33, end) infinite alternate, blink 0.25s step-end  infinite;
+  background: -webkit-linear-gradient(#fff, rgb(67, 244, 2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+@media only screen and (max-width: 900px){
   .typing-text{
-    font-family: Arial, sans-serif;
-    display: inline-block;
-    overflow: hidden;
-    box-sizing: border-box;
-    white-space: nowrap;
-    font-size: 50px;
-    border-right: 2px solid #fff;
-    animation: typing 5s steps(34, end) infinite alternate, blink 0.25s step-end  infinite;
-    background: -webkit-linear-gradient(#fff, rgb(67, 244, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 24px;
   }
+}
 
-  @media only screen and (max-width: 900px){
-    .typing-text{
-      font-size: 30px;
-    }
+@media only screen and (max-width: 300px){
+  .typing-text{
+    font-size: 14px;
   }
+}
 
+
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: inherit;
+  animation: zoom 1s;
+}
+
+@media only screen and (max-width: 900px){
   p{
-    font-size: 18px;
-    color: inherit;
+    font-size: 16px;
   }
+}
 
-  img{
-    width: 100%;
+img{
+  width: 100%;
+  animation: zoom 1s;
+}
+
+
+@keyframes typing {
+  from{
+    width: 0%;
   }
-
-
-  @keyframes typing {
-    from{
-      width: 0%;
-    }
-    to{
-      width: 100%;
-    }
-    
+  to{
+    width: 103%;
   }
+  
+}
 
 
-  @keyframes blink {
-    from,to{
-      border-color: transparent;
-    }
-    50%{
-      border-color: #fff;
-    }
+@keyframes blink {
+  from,to{
+    border-color: transparent;
   }
+  50%{
+    border-color: #fff;
+  }
+}
+
+@keyframes zoom{
+  from{
+    transform: scale(0.5)
+  }
+  to{
+    transform: scale(1)
+  }
+}

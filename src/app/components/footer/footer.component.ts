@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faPhone, faEnvelope, faP } from '@fortawesome/free-solid-svg-icons';
+import { ContentService } from 'src/app/services/content.service';
 
 
 @Component({
@@ -12,10 +13,19 @@ export class FooterComponent implements OnInit {
   faPhone = faPhone;
   faEnvelope = faEnvelope;
   curYear = new Date().getFullYear();
+  email = "";
+  services: string[] = [];
+
   
-  constructor() { }
+  constructor(private service: ContentService) { }
 
   ngOnInit(): void {
+    this.email = "tekbista375@gmail.com"
+    this.service.getSections().subscribe({
+      next: (data) =>{this.services = data.services},
+      complete: () => {console.log(this.services)},
+      error: (err) => {console.log(err)}
+    })
   }
 
   findMe(social:string){

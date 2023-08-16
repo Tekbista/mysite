@@ -1,0 +1,31 @@
+{
+    "sections": [
+        {
+            "title": "idea",
+            "content": "Looing for help in turning your idea into reality?",
+            "image": "../../../assets/images/brain.png"
+        },
+        {
+            "title": "web",
+            "content": "Remember me if you need help in developing web application.",
+            "image": "../../../assets/images/browser.png"
+        },
+        {
+            "title": "mobile",
+            "content": "Need a mobile app?",
+            "image": "../../../assets/images/mobile.png"
+        },
+        {
+            "title": "coding",
+            "content": "Also, I can help you learn coding. Java, Python, TypeScript, JavaScript, HTML, CSS, and SQL.",
+            "image": "../../../assets/images/coding.png"
+        }
+    ],
+
+    "services": [
+        "Web Development",
+        "Mobile App Development",
+        "API & Web Services",
+        "Programming Classes"
+    ]
+}

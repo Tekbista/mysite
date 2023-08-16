@@ -1,23 +1,20 @@
 <section id="home">
     <div class="header">
+        
         <div class="container mx-auto pt-3">
-            <app-navbar></app-navbar>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="typing" >
+                    <div class="typing mb-5" >
                         <div class="typing-text">
-                            Hi, I'm Tek. A Software Engineer.
+                            {{intro}}
                         </div>
                     </div> 
-                    
-                    <p>
-                        Highly experienced, solution-oriented professional with experience in full-stack software development using java,   
-                        Spring boot, Angular, and Bootstrap. Proficient in utilizing a wide variety of programs and tools to provide 
-                        high-quality and cost-effective applications / systems to boost organizational productivity.
+                    <p class="m-2 p-2">
+                        {{about}}
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="../../../assets/images/programming.png" alt="idea">
+                    <img src="{{headerImage}}" alt="idea" id="header-image">
                 </div>
             </div>
         </div>

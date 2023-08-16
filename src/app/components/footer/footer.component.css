@@ -6,6 +6,31 @@
     padding: 20px;
 }
 
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: inherit;
+    animation: zoom 1s;
+}
+
+@media only screen and (max-width: 900px){
+    p{
+        font-size: 16px;
+    }
+  }
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+@media only screen and (max-width: 900px){
+    h3{
+        font-size: 20px;
+    }
+  }
+
 i.social{
     font-size: 36px;
     margin-right: 20px;
@@ -17,5 +42,9 @@ i.social{
 
 .bi-youtube{
     color: rgb(255, 0, 0);
+}
+
+i{
+    margin-right: 5px;
 }
 

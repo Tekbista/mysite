@@ -1,45 +1,23 @@
-<div class="container mx-auto p-3">
-    <section id="idea">
+<div class="container mx-auto p-3" *ngFor="let section of sections; let i = index">
+    <section id="{{section.title}}" class="mt-5 mb-5" *ngIf="(i + 1)%2 !== 0">
         <div class="row mb-3">
             <div class="col-6 message">
-                Looing for help in turning your idea into reality?
+                {{section.content}}
             </div>
             <div class="col-6">
-                <img src="../../../assets/images/brain.png" alt="idea">
+                <img src="{{section.image}}" alt="idea">
             </div>
+        </div>
+    </section>
+    <section id="{{section.title}}" class="mt-5 mb-5" *ngIf="(i + 1)%2 === 0">
+        <div class="row mb-3">
+            <div class="col-6">
+                <img src="{{section.image}}" alt="idea">
+            </div>
+            <div class="col-6 message">
+                {{section.content}}
+            </div>
+        </div>
+    </section>
     
-        </div>
-    </section>
-    <section id="web">
-        <div class="row mb-3">
-            <div class="col-6">
-                <img src="../../../assets/images/browser.png" alt="webapp">
-            </div>
-            <div class="col-6 message">
-                Remember me if you need help in developing web application.
-            </div>
-        </div>
-    </section>
-
-    <section id="mobile">
-        <div class="row mb-3">
-            <div class="col-6 message">
-                Need a mobile app?
-            </div>
-            <div class="col-6">
-                <img src="../../../assets/images/mobile.png" alt="mobileapp">
-            </div>
-        </div>
-    </section>
-
-    <section id="coding">
-        <div class="row mb-3">
-            <div class="col-6">
-                <img src="../../../assets/images/coding.png" alt="coding">
-            </div>
-            <div class="col-6 message">
-                Also, I can help you learn coding. Java, Python, TypeScript, JavaScript, HTML, CSS, and SQL.
-            </div>
-        </div>
-    </section>
 </div>

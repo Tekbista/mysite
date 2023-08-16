@@ -3,6 +3,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+
 .message{
     display: flex;
     align-items: center;
@@ -45,3 +47,6 @@ img{
         width: 100%;
     }
 }
+
+
+

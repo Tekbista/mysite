@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Section } from 'src/app/models/section';
+import { ContentService } from 'src/app/services/content.service';
 
 @Component({
   selector: 'app-body',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
-  constructor() { }
+  sections: Section[] = [];
+  constructor(private contentService: ContentService) { }
 
   ngOnInit(): void {
+    this.contentService.getSections().subscribe({
+      next: (secs) => { this.sections = secs.sections},
+      complete: () =>{console.log(this.sections)},
+      error: (err) =>{console.log(err)}
+    })
   }
 
 }
