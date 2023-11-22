@@ -3,12 +3,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-
 .message{
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: inherit;
     font-size: 50px;
     background: -webkit-linear-gradient(rgb(130, 177, 96), rgb(6, 45, 203));
@@ -46,6 +42,11 @@ img{
         height: 250px;
         width: 100%;
     }
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 

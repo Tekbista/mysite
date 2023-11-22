@@ -14,9 +14,13 @@ export class HeaderComponent implements OnInit {
   headerImage = "";
   ngOnInit(): void {
     this.intro = "Hi, I'm Tek. A Software Developer.";
-    this.about = "Highly experienced, solution-oriented professional with experience in full-stack software development using java, " +   
-                  "Spring boot, Angular, and Bootstrap. Proficient in utilizing a wide variety of programs and tools to provide " +
-                  "high-quality and cost-effective applications / systems to boost organizational productivity.";
+    this.about = "Welcome to a realm where innovation meets functionality! I am Tek Bista, " +
+                 "a passionate software developer dedicated to crafting seamless digital solutions " +
+                  " that transcend expectations. With a blend of technical expertise and a creative mindset, " +
+                  "I specialize in turning complex concepts into elegant, user-centric software. Join me on a journey" +
+                  " where cutting-edge technology converges with intuitive design, delivering transformative " +
+                  "experiences that redefine the way we interact with the digital world.";
+
     this.headerImage = "../../../assets/images/programming.png";
   }
 }
