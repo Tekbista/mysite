@@ -7,6 +7,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BodyComponent } from './components/body/body.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ActiveRouteDirective } from './directives/active-route.directive';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { ServiceComponent } from './components/service/service.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     BodyComponent,
     NavbarComponent,
+    ActiveRouteDirective,
+    AboutmeComponent,
+    ServiceComponent,
   ],
   imports: [
     BrowserModule,

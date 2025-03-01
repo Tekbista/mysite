@@ -1,38 +1,29 @@
 {
-    "sections": [
+    "portfolio": [
         {
-            "title": "idea",
-            "heading": "Looing for help in turning your idea into reality?",
-            "content": "Bringing ideas to life is where our expertise thrives. we specialize in transforming the abstract into tangible realities. Our approach is rooted in collaboration, taking your concepts and infusing them with innovation and technical prowess to create actionable solutions. We understand that an idea is just the beginning; the magic lies in its execution. With a blend of creativity and strategic planning, we meticulously craft a roadmap that translates visions into functional, impactful outcomes. From software development to app creation, we're dedicated to turning your aspirations into thriving realities that resonate with your audience and drive success. Let's embark on this journey together, where your ideas become the cornerstone of our collaborative innovation.",
-            "image": "../../../assets/images/brain.png"
+            "project": "Shop24x7 Ecommerce App",
+            "image": "../../../assets/images/ecommerce-app.png"
 
         },
         
         {
-            "title": "web",
-            "heading": "Web Development",
-            "content": "We're your gateway to a dynamic online presence. My web development service isn't just about creating websites; it's about architecting digital experiences that captivate, engage, and drive results. Whether you're a budding startup, a growing business, or an established enterprise, our team specializes in crafting tailor-made, responsive websites that harmonize innovative design with flawless functionality. I thrive on bringing your vision to life, meticulously coding every element to ensure a seamless user journey that resonates with your audience and amplifies your online impact.",
-            "image": "../../../assets/images/browser.png"
+            "project": "Temperature Comfort Site",
+            "image": "../../../assets/images/temp-confort.jpg"
         },
             
         {
-            "title": "mobile",
-            "heading": "Mobile Application",
-            "content": "We're the architects behind your mobile aspirations. Our mobile app development service is designed to transform your ideas into intuitive, sleek, and high-performing applications. Whether you're aiming for iOS, Android, or cross-platform solutions, our team of seasoned developers crafts custom mobile experiences that merge cutting-edge technology with user-centric design. From concept to deployment, we meticulously engineer every aspect, ensuring your app not only meets but exceeds industry standards. We're dedicated to creating apps that resonate with your audience, enhance user engagement, and elevate your brand in the ever-evolving mobile landscape.",
-            "image": "../../../assets/images/mobile.png"
-        },
-        {
-            "title": "coding",
-            "heading": "Coding Help",
-            "content": "We're passionate about empowering the next generation of tech enthusiasts through our coding class services. Our programs are meticulously crafted to ignite curiosity and cultivate essential coding skills in an engaging and accessible manner. Whether you're a beginner eager to unravel the mysteries of programming or an experienced coder aiming to refine your expertise, our classes cater to diverse skill levels. Led by experienced instructors, our curriculum spans a wide array of languages and frameworks, fostering a hands-on learning environment where creativity thrives. Join us in unlocking the world of coding, where innovation meets education, and possibilities abound.",
-            "image": "../../../assets/images/coding.png"
+            "project": "Demo Home Care Site",
+            "image": "../../../assets/images/home-care.jpg"
         }
     ],
 
     "services": [
+        "Web Design",
         "Web Development",
-        "Mobile App Development",
         "API & Web Services",
-        "Programming Classes"
+        "App Development",
+        "Custom Software",
+        "Cloud Service"
+
     ]
 }

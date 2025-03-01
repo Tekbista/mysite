@@ -1,9 +1,9 @@
-<div class="d-flex mb-2 justify-content-end">
+<div class="d-flex mb-2 me-5 justify-content-end" id="navbar">
     <ul class="nav">
-        <li class="nav-item" (click)="toSection('home')"><a class="nav-link">Home</a></li>
-        <li class="nav-item" (click)="toSection('idea')"><a class="nav-link">Idea</a></li>
-        <li class="nav-item" (click)="toSection('web')"><a class="nav-link">Web</a></li>
-        <li class="nav-item" (click)="toSection('mobile')"><a class="nav-link">Mobile</a></li>
-        <li class="nav-item" (click)="toSection('coding')"><a class="nav-link">Coding</a></li>
+        <li class="nav-item active" appActiveRoute ><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item" appActiveRoute><a class="nav-link" href="#aboutme">About Me</a></li>
+        <li class="nav-item"  appActiveRoute><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item" (click)="openResume()" appActiveRoute><a class="nav-link">Resume</a></li>
+        <li class="nav-item"  appActiveRoute><a class="nav-link" href="#footer">Contact</a></li>
     </ul>
 </div>

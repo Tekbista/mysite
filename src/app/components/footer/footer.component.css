@@ -1,38 +1,47 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../../assets/fonts/Roboto/Roboto-Regular.ttf');
+  }
+
 .footer{
     width: 100%;
     height: auto;
+    /* background-image: url('../../../assets/images/footer background.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
     background-color: rgb(36,107,190);
     color: #fff;
     padding: 20px;
+    font-family: 'Roboto-Regular';
 }
 
 p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-family: inherit;
+    font-size: 1rem;
     color: inherit;
     animation: zoom 1s;
 }
 
 @media only screen and (max-width: 900px){
     p{
-        font-size: 16px;
+        font-size: 1rem;
     }
   }
 
 h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: inherit;
     font-size: 24px;
     font-weight: 700px;
 }
 
 @media only screen and (max-width: 900px){
     h3{
-        font-size: 20px;
+        font-size: 1.2rem;
     }
   }
 
 i.social{
-    font-size: 36px;
+    font-size: 2.2rem;
     margin-right: 20px;
 }
 

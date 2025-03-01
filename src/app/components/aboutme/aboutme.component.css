@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../../assets/fonts/Roboto/Roboto-Regular.ttf');
+  }
+.aboutme{
+    background-color: #fff;
+    
+}
+.row{
+    font-family: 'Roboto-Regular';
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+
+}
+
+#profile-image{
+    background-image: url("../../../assets/images/profile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(223, 223, 225);
+    border-radius: 50%;
+}
+
+
+h1{
+    display: flex;
+    font-family: inherit;
+    font-size: 36px;
+    background: -webkit-linear-gradient(rgb(147, 139, 242), rgb(5, 24, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-family: inherit;
+    font-size: 18px;
+}

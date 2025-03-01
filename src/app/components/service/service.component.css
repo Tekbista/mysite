@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../../assets/fonts/Roboto/Roboto-Regular.ttf');
+  }
+.service{
+    background-color: rgb(229, 238, 238);
+    font-family: 'Roboto-Regular';
+}
+
+.card{
+    background-color: rgb(217, 225, 243);
+}
+
+.card:hover{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    display: flex;
+    font-family: inherit;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(rgb(147, 139, 242), rgb(5, 24, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+i{
+    font-size: 50px;
+    color: #50298a;
+}
+
+.icon-image{
+    max-width: 50px;
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5{
+    color: #263e48;;
+}
+p{
+    font-size: .8rem;
+    color: #5b4f5b;
+}
+
+.btn-info{
+    padding:5px 20px 5px 20px;
+    border: 1px solid rgb(190, 215, 215);
+    border-radius: 30px;
+    background-color: rgb(190, 215, 215);
+    width: 120px;
+    font-size: .8rem;
+}
+
+a{
+    text-decoration: none;
+    
+}

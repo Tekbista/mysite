@@ -1,21 +1,29 @@
-
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../../assets/fonts/Roboto/Roboto-Thin.ttf');
+  }
+@media only screen and (max-width: 768px){
+    #navbar{
+        display: none !important;
+    }
+}
 .nav-link{
     color: #fff;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    font-family: 'Roboto-Thin';
 }
 
 .nav-item:hover{
-    border: 1px solid #fff;
+    border-bottom: 1px solid #fafcfc;
     border-radius: 25px;
-    font-weight: bold;
 }
 
-.nav-item:active{
-    
-    border: 1px solid rgb(24, 22, 22);
+.active{  
+    border-bottom: 1px solid #fafcfc;
     border-radius: 25px;
-    font-weight: bold;
-    background-color: rgb(24, 22, 22);
+}
+
+li{
+    margin-right: 20px;
 }
 

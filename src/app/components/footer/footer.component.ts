@@ -14,6 +14,7 @@ export class FooterComponent implements OnInit {
   faEnvelope = faEnvelope;
   curYear = new Date().getFullYear();
   email = "";
+  phone = ""
   services: string[] = [];
 
   
@@ -21,6 +22,7 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
     this.email = "tekbista375@gmail.com"
+    this.phone = "(513)-250-0423"
     this.service.getSections().subscribe({
       next: (data) =>{this.services = data.services},
       complete: () => {console.log(this.services)},

@@ -12,7 +12,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toSection(section:any){
-    document.getElementById(section)?.scrollIntoView({behavior: "smooth"});
+
+  openResume(){
+    window.open("../../../assets/Resume.pdf");
   }
 }

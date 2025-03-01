@@ -14,7 +14,7 @@ export class BodyComponent implements OnInit {
 
   ngOnInit(): void {
     this.contentService.getSections().subscribe({
-      next: (secs) => { this.sections = secs.sections},
+      next: (secs) => { this.sections = secs.portfolio},
       complete: () =>{console.log(this.sections)},
       error: (err) =>{console.log(err)}
     })
